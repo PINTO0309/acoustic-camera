@@ -31,18 +31,14 @@ https://github.com/user-attachments/assets/d4487e37-53c0-410e-9096-0be138bd0e5e
 
 ## Environment
 
-1. Create a new environment:
-
-```bash
-uv sync
-source .venv/bin/activate
-```
+- Create a new environment:
+  ```bash
+  uv sync
+  source .venv/bin/activate
+  ```
 ## Usage
-
-- Clone this repository and navigate into the `acoustic-camera` folder.
-
-- To run with default settings, use: `python start.py`.
-
-- To run without video output, use the `--no-flask` flag.
-
-- To use a specific model, add the flag `--model path/to/model/folder`.
+- To run with default settings.
+  ```bash
+  cd acoustic-camera
+  python start.py
+  ```
