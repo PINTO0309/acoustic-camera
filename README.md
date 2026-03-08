@@ -14,6 +14,8 @@ Here is a brief overview of the project structure:
 
 https://github.com/user-attachments/assets/d4487e37-53c0-410e-9096-0be138bd0e5e
 
+<img width="1191" height="759" alt="image" src="https://github.com/user-attachments/assets/47f6ec09-5e3c-4f83-bb23-eebc0655869e" />
+
 ## Requirements
 
 ### Hardware
