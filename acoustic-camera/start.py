@@ -3,13 +3,22 @@ import sys
 import time
 import signal
 import webbrowser
-from config import ConfigManager
+import os
+from config import ConfigManager, detect_camera_resolution
 import argparse
 import bokeh.server.server
 
 
 CONFIG_PATH = "config/config.json"
 config = ConfigManager(CONFIG_PATH)
+
+camera_width, camera_height = detect_camera_resolution(0)
+if camera_width and camera_height:
+    os.environ["ACOUSTIC_CAMERA_CAMERA_WIDTH"] = str(camera_width)
+    os.environ["ACOUSTIC_CAMERA_CAMERA_HEIGHT"] = str(camera_height)
+    print(f"Detected camera resolution: {camera_width}x{camera_height}")
+else:
+    print("Camera resolution could not be detected. Using config defaults.")
 
 flask_process = None
 bokeh_process = None

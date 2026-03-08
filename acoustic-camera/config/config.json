@@ -4,18 +4,19 @@
         "fps": 15,
         "dx": 143,
         "dz": 58,
+        "peak_marker_fov": 180,
         "estimation_update_interval": 100,
-        "beamforming_update_interval": 1000,
+        "beamforming_update_interval": 500,
         "camera_update_interval": 100,
         "stream_update_interval": 1000
     },
     "app_default_settings": {
-        "threshold": 40,
+        "threshold": 45,
         "min_distance": 1,
         "cluster_distance": 0.6,
         "x": 0.0,
         "y": 0.0,
-        "z": 2.0
+        "z": 1.0
     },
     "layout": {
         "video": {
@@ -98,7 +99,7 @@
         "overlap": "50%",
         "block_size": 128,
         "increment": 0.05,
-        "frequency": 4000.0,
+        "frequency": 2500.0,
         "xmin": -1.5,
         "xmax": 1.5,
         "ymin": -1.5,

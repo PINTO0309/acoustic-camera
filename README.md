@@ -27,12 +27,12 @@ Here is a brief overview of the project structure:
 
 ## Environment
 
-1. Create a new environment: <br> `conda create -n acoustic_camera python=3.11`
+1. Create a new environment:
 
-2. Activate the environment: <br> `conda activate acoustic_camera`
-
-3. Install the required libraries: <br> `pip install -r requirements.txt`
-
+```bash
+uv sync
+source .venv/bin/activate
+```
 ## Usage
 
 - Clone this repository and navigate into the `acoustic-camera` folder.
