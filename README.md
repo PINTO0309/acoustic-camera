@@ -12,9 +12,17 @@ Here is a brief overview of the project structure:
 
 ## Test
 
-https://github.com/user-attachments/assets/d4487e37-53c0-410e-9096-0be138bd0e5e
+- Realtime test
 
-<img width="1191" height="759" alt="image" src="https://github.com/user-attachments/assets/47f6ec09-5e3c-4f83-bb23-eebc0655869e" />
+  https://github.com/user-attachments/assets/d4487e37-53c0-410e-9096-0be138bd0e5e
+
+- UI
+
+  <img width="1191" height="759" alt="image" src="https://github.com/user-attachments/assets/47f6ec09-5e3c-4f83-bb23-eebc0655869e" />
+
+- FOV settings
+
+  <img width="1148" height="752" alt="image" src="https://github.com/user-attachments/assets/b3185c86-3eac-4459-8c22-a0d4c83427ac" />
 
 ## Requirements
 
