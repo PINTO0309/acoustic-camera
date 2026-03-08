@@ -10,6 +10,16 @@ Here is a brief overview of the project structure:
 
 ![alt text](overview.png "Title")
 
+- UMA-16 v2 USB mic array
+
+  https://www.minidsp.com/products/usb-audio-interface/uma-16-microphone-array
+
+  <img width="440" height="484" alt="image" src="https://github.com/user-attachments/assets/84f5deac-0d34-4457-8b74-2cb7cc9ac711" />
+
+- Fish-eye Camera + UMA-16 v2 USB mic array
+
+  <img width="347" height="462" alt="image" src="https://github.com/user-attachments/assets/b0b04be2-1553-45b8-836c-9c582719711a" />
+
 ## Test
 
 - Realtime test
